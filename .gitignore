@@ -23,6 +23,7 @@ x64/
 *_i.h
 *.ilk
 *.meta
+*.sln
 *.obj
 *.pch
 *.pdb

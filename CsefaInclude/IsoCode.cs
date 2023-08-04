@@ -1,0 +1,42 @@
+namespace ISOCODE
+{
+    public enum IsoCode
+    {
+        ISO_EXISTS = 893,
+        ISO_NOT_EXISTS = 894,
+        ISO_NOT_FOUND = 895,
+        ISO_CORRUPT = 896,
+        ISO_INCORRECT = 897,
+        ISO_INVALID = 898,
+        ISO_NOT_SUPPORTED = 899,
+        ISO_NOT_INCLUDE_INIXC = 900,
+        ISO_NOT_INCLUDE_ICS = 901,
+        ISO_WRONG_PATH = 902,
+        ISO_CSEFA_VERSION_NOT_SUPPORTED = 904,
+        ISO_FAIL_UPDATE = 905,
+        ISO_FAIL_MOVE = 906,
+        ISO_REG_FAIL = 907,
+        ISO_REG_DONE = 908,
+        ISO_REG_FAIL_SYSTEM_ISO = 909,
+        ISO_NEED_REINSTALL = 910,
+        ISO_CHANGE_DONE = 912,
+        ISO_CHANGE_FAIL = 913,
+        ISO_LOAD_FAIL = 914,
+        ISO_LOAD_DONE = 915,
+        ISO_LOAD_FAIL_CAUSE_ABORT = 916,
+        ISO_FORCE_LOAD = 917,
+        ISO_FORCE_LOAD_FAIL = 918,
+        ISO_FORCE_DENIED = 919,
+        ISO_FORCE_REG_DONE = 920,
+        ISO_FORCE_REG_FAIL = 921,
+        ISO_SAME_VERSION = 922,
+        ISO_REINSTALL_DONE = 923,
+        ISO_REINSTALL_FAIL = 924,
+        ISO_FORMAT_DONE = 925,
+        ISO_FORMAT_FAIL = 926,
+        ISO_FORMAT_FAIL_NOT_PERMITTED = 927,
+        ISO_MEED_AS_ADMIN = 928,
+        ISO_REG_FAIL_ISO_EXISTS = 929
+
+    }
+}

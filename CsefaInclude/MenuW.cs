@@ -1,4 +1,5 @@
 using Terminal.Gui;
+using Csefa;
 namespace MenuW
 {
     public class MenuWindow
@@ -44,6 +45,15 @@ namespace MenuW
                 if (e.KeyEvent.Key == Key.Enter){
                     if (listmenu.SelectedItem == 7){
                         Application.RequestStop();
+                    }
+                    else if (listmenu.SelectedItem == 1)
+                    {
+                        /*public static void Main(string[] args)
+                        {
+                            
+                        }*/
+                        Application.RequestStop();
+                        Program.Install();
                     }
                 }
                 

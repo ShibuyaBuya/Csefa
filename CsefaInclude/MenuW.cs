@@ -53,6 +53,7 @@ namespace MenuW
                             
                         }*/
                         Application.RequestStop();
+                        Application.Shutdown();
                         Console.Clear();
                         Program.Install();
                     }

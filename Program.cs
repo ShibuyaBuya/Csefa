@@ -47,7 +47,7 @@ public static class Program
         {
             menuWindow.Menu();
         }*/
-        menuWindow.Menu();
+        //menuWindow.Menu();
         return 0;
     }
     static void FastInit()

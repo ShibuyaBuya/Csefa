@@ -31,7 +31,7 @@ namespace MenuW
                     V,
                     "(d) Reinstall csefa iso",
                     "(e) Uninstall csefa iso",
-                    "(f) Reset (return to factory settings) csefa iso",
+                    "(f) Reset to factory settings",
                     "(g) Start CSEFA",
                     "(z) Exit"
             });

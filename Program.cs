@@ -43,10 +43,11 @@ public static class Program
             }
         }
 
-        if (autoStart == false)
+        /*if (autoStart == false)
         {
             menuWindow.Menu();
-        }
+        }*/
+        menuWindow.Menu();
         return 0;
     }
     static void FastInit()
